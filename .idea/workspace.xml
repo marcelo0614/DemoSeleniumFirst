@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NewTour_Automation">
+  <component name="RunManager" selected="JUnit.Register_Test">
     <configuration name="All in DemoSeleniumFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoSeleniumFirst" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,8 +61,8 @@
     </configuration>
     <configuration name="GoogleSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoSeleniumFirst" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GoogleSearchTest" />
+      <option name="PACKAGE_NAME" value="qa.tutorial" />
+      <option name="MAIN_CLASS_NAME" value="qa.tutorial.GoogleSearchTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,8 +70,8 @@
     </configuration>
     <configuration name="GoogleSearchTest.testGooglePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoSeleniumFirst" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GoogleSearchTest" />
+      <option name="PACKAGE_NAME" value="qa.tutorial" />
+      <option name="MAIN_CLASS_NAME" value="qa.tutorial.GoogleSearchTest" />
       <option name="METHOD_NAME" value="testGooglePage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -80,8 +80,23 @@
     </configuration>
     <configuration name="NewTour_Automation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoSeleniumFirst" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NewTour_Automation" />
+      <option name="PACKAGE_NAME" value="qa.tutorial" />
+      <option name="MAIN_CLASS_NAME" value="qa.tutorial.NewTour_Automation" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Register_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoSeleniumFirst" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.pom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.pom" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.pom.Register_Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,6 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Register_Test" />
         <item itemvalue="JUnit.NewTour_Automation" />
         <item itemvalue="JUnit.GoogleSearchTest" />
         <item itemvalue="JUnit.GoogleSearchTest.testGooglePage" />
@@ -113,12 +129,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/GoogleSearchTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/qa/tutorial/GoogleSearchTest.java</url>
           <line>21</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/GoogleSearchTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/qa/tutorial/GoogleSearchTest.java</url>
           <line>22</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
